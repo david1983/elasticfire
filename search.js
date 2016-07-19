@@ -48,13 +48,4 @@ function processRequest(snap) {
         console.trace(err.message);
     });
 
-
-    //    client
-    //    .search(data.index, data.type, { "query": { 'query_string': { query: data.query } } })
-    //    .on('data', function(data) {
-    //        // Post the results to https://<INSTANCE>.firebaseio.com/search/response
-    //        queue.child('response/'+snap.key).set(results);
-    //    })
-    //    .on('error', function(error){ /* process errors */ })
-    //    .exec();
 }
