@@ -33,12 +33,16 @@ fb.once('value').then(function(snapshot) {
    console.log('end')
    setInterval(function(){
        console.log(n)
-       client.index('firebase', 'products', prods[arr[n]], arr[n])
-        .on('data', function(data) {
-            // console.log(data)
-        })
-        .exec()
-    
+       if(prods[arr[n]]){
+            client.index('firebase', 'products', prods[arr[n]], arr[n])
+                .on('data', function(data) {
+                    // console.log(data)
+                })
+            .exec()
+       }else{
+           clearInterval();
+       }
+       
 
        n++
    },50)
