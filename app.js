@@ -2,7 +2,10 @@ var Firebase = require('firebase');
 var ElasticClient = require('elasticsearchclient');
 
 var config = {
-    // firebase configuration here
+    apiKey: "AIzaSyAG1u29W1E_Y3ZXr2ynUyC3dhee3NlbI_M",
+    authDomain: "grooco-3a6e4.firebaseapp.com",
+    databaseURL: "https://grooco-3a6e4.firebaseio.com",
+    storageBucket: "grooco-3a6e4.appspot.com",
   };
   Firebase.initializeApp(config);
 
