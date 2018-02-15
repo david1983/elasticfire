@@ -8,8 +8,8 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {    
-    "elasticsearchclient": "^0.5.3",    
-    "firebase": "^3.2.0"    
+  "dependencies": {
+    "elasticsearchclient": "^0.5.3",
+    "firebase": "^4.5.1"
   }
 }
