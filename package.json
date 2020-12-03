@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "elasticsearchclient": "^0.5.3",
-    "firebase": "^4.5.1"
+    "firebase": "^8.0.1"
   }
 }
